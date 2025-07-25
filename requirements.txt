@@ -1,0 +1,6 @@
+google-play-scraper
+boto3
+pandas
+numpy
+dotenv
+confluent-kafka
