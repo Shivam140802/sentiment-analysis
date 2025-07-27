@@ -9,7 +9,7 @@ load_dotenv()
 host = "my-dev-workgroup.227274823571.eu-north-1.redshift-serverless.amazonaws.com"
 port = 5439
 dbname = "dev"  
-user = "admin"  
+user = os.getenv("REDSHIFT_USER")  
 password = os.getenv("REDSHIFT_PASSWORD")
 iam_role = os.getenv("REDSHIFT_IAM_ROLE")  
 
