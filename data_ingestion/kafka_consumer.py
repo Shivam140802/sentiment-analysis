@@ -11,7 +11,7 @@ load_dotenv()
 KAFKA_BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
 AWS_S3_BUCKET_NAME = os.getenv("AWS_S3_BUCKET_NAME")
 S3_REGION = 'eu-north-1'
-FOLDER = 'structured_data/'
+FOLDER = 'unstructured_data/'
 MAX_EMPTY_POLLS = 10  # max number of consecutive empty polls before stopping
 
 apps = [

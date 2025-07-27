@@ -4,3 +4,5 @@ pandas
 numpy
 dotenv
 confluent-kafka
+psycopg2
+scikit-learn
