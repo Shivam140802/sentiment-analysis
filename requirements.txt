@@ -1,0 +1,10 @@
+google-play-scraper
+boto3
+pandas
+numpy
+dotenv
+pandas
+scikit-learn
+sentence-transformers
+ipykernel
+optuna
