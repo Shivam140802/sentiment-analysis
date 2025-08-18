@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+.myenv/
+
+# Python cache files
+__pycache__/    
+*.py[cod]
+
+# Environment variables files
+.env
+.env.local
+
+# logs
+logs/
+embeddings/
