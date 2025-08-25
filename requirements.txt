@@ -8,3 +8,6 @@ scikit-learn
 sentence-transformers
 ipykernel
 optuna
+kafka-python
+psycopg2
+streamlit
